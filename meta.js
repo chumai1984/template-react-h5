@@ -41,16 +41,7 @@ module.exports = {
       ],
     },
   },
-  filters: {
-    'src/components/**/*': true,
-    'src/views/index/index.html': true,
-    'src/views/about/about.html': true,
-
-    'src/views/index/index.scss': true,
-    'src/views/about/about.scss': true,
-    'src/style/styles.scss': true,
-    'src/components/header/header.scss': true,
-  },
+  filters: {},
   complete: function(data, { chalk }) {
     // data是metalsmith的全局变量（包含问答答案）
     const green = chalk.green
