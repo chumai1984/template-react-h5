@@ -42,22 +42,14 @@ module.exports = {
     },
   },
   filters: {
-    'src/views/index/index.pug': "data.htmlChoice === 'pug'",
-    'src/views/about/about.pug': "data.htmlChoice === 'pug'",
-    'src/components/**/*': "data.htmlChoice === 'pug'",
+    'src/components/**/*': true,
+    'src/views/index/index.html': true,
+    'src/views/about/about.html': true,
 
-    'src/views/index/index.html': "data.htmlChoice === 'html'",
-    'src/views/about/about.html': "data.htmlChoice === 'html'",
-
-    'src/views/index/index.less': "data.cssChoice === 'less'",
-    'src/views/about/about.less': "data.cssChoice === 'less'",
-    'src/style/styles.less': "data.cssChoice === 'less'",
-    'src/components/header/header.less': "data.htmlChoice === 'pug' && data.cssChoice === 'less'",
-
-    'src/views/index/index.scss': "data.cssChoice === 'scss'",
-    'src/views/about/about.scss': "data.cssChoice === 'scss'",
-    'src/style/styles.scss': "data.cssChoice === 'scss'",
-    'src/components/header/header.scss': "data.htmlChoice === 'pug' && data.cssChoice === 'scss'",
+    'src/views/index/index.scss': true,
+    'src/views/about/about.scss': true,
+    'src/style/styles.scss': true,
+    'src/components/header/header.scss': true,
   },
   complete: function(data, { chalk }) {
     // data是metalsmith的全局变量（包含问答答案）
