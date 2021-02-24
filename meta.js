@@ -19,10 +19,6 @@ module.exports = {
       message: 'Project description',
       default: 'A Simple Webpack Template',
     },
-    author: {
-      type: 'string',
-      message: 'Author',
-    },
     htmlChoice: {
       type: 'list',
       message: 'Use pug ?',
