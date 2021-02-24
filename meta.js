@@ -19,37 +19,9 @@ module.exports = {
       message: 'Project description',
       default: 'A Simple Webpack Template',
     },
-    htmlChoice: {
-      type: 'list',
-      message: 'Use pug ?',
-      choices: [
-        {
-          name: 'Pug',
-          value: 'pug',
-          short: 'pug',
-        },
-        {
-          name: 'HTML is enough',
-          value: 'html',
-          short: 'html',
-        },
-      ],
-    },
-    cssChoice: {
-      type: 'list',
-      message: 'Less or Scss ?',
-      choices: [
-        {
-          name: 'Less',
-          value: 'less',
-          short: 'less',
-        },
-        {
-          name: 'Scss',
-          value: 'scss',
-          short: 'scss',
-        },
-      ],
+    author: {
+      type: 'string',
+      message: 'Author',
     },
     autoInstall: {
       type: 'list',
