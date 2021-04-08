@@ -1,0 +1,135 @@
+{
+  "id": "2329806",
+  "name": "iwriter",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "20004738",
+      "name": "目录",
+      "font_class": "mulu",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "19446410",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "19446411",
+      "name": "delete",
+      "font_class": "delete",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "19446412",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "19446413",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "19446414",
+      "name": "新建",
+      "font_class": "xinjian",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "19446415",
+      "name": "私密-角标",
+      "font_class": "simi-jiaobiao",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "19446416",
+      "name": "收藏数",
+      "font_class": "shoucangshu",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "19446417",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "19446418",
+      "name": "排序箭头",
+      "font_class": "paixujiantou",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "19446419",
+      "name": "词条数",
+      "font_class": "citiaoshu",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "19446420",
+      "name": "私密",
+      "font_class": "simi",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "19446421",
+      "name": "引用数",
+      "font_class": "yinyongshu",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "19446422",
+      "name": "新建收藏-确认",
+      "font_class": "xinjianshoucang-queren",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "19446423",
+      "name": "已收藏",
+      "font_class": "yishoucang",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "19446424",
+      "name": "新建收藏-取消",
+      "font_class": "xinjianshoucang-quxiao",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "19446425",
+      "name": "筛选",
+      "font_class": "shaixuan",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "19446426",
+      "name": "已打开文件",
+      "font_class": "yidakaiwenjian",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    }
+  ]
+}

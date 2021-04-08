@@ -1,0 +1,56 @@
+.history {
+    width: 328px;
+    top: 3px;
+    padding: 8px;
+    z-index: 888;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    border: solid 1px #dddddd;
+    :global {
+        ul {
+            padding: 0;
+
+            li {
+                padding: 0;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 8px;
+                background-color: #ffffff;
+                position: relative;
+                font-size: 14px;
+                color: #333333;
+                .history {
+                    display: block;
+                    width: auto;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    width: 285px;
+                }
+                .historyDel {
+                    position: absolute;
+                    right: 8px;
+                    top: 0;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #f5f5f5;
+                }
+            }
+        }
+        .clearBox {
+            margin-top: 8px;
+            text-align: right;
+            a {
+                font-size: 12px;
+                color: #1989fa;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

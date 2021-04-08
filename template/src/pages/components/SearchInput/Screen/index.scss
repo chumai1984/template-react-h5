@@ -1,0 +1,80 @@
+.Screen {
+    width: 328px;
+    top: 3px;
+    padding: 16px;
+    z-index: 888;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    border: solid 1px #dddddd;
+    :global {
+        .sreenBlock {
+            h5 {
+                margin-bottom: 14px;
+                font-size: 12px;
+                color: #999999;
+            }
+            ul {
+                padding: 0;
+                margin-left: -10px;
+            }
+            ul::after {
+                display: block;
+                content: "";
+                clear: both;
+            }
+            .SearchTag {
+                max-width: 200px;
+                padding-left: 10px;
+                padding-right: 10px;
+                overflow: hidden;
+                text-overflow: ellipsis; //溢出用省略号显示
+                white-space: nowrap;
+                height: 24px;
+                line-height: 24px;
+                background-color: #f5f5f5;
+                border-radius: 20px;
+                font-size: 12px;
+                color: #666666;
+                cursor: pointer;
+                float: left;
+                margin-bottom: 10px;
+                margin-left: 10px;
+                position: relative;
+            }
+            .icon {
+                padding-left: 32px;
+                img {
+                    position: absolute;
+                    height: 14px;
+                    width: 14px;
+                    top: 5px;
+                    left: 12px;
+                }
+            }
+            .dev {
+                color: #1989fa;
+                background-color: #f3f9ff;
+            }
+        }
+
+        .sreenBtnBox {
+            .sreenBtn {
+                float: right;
+                height: 32px;
+                line-height: 32px;
+                padding-left: 18px;
+                padding-right: 18px;
+                background-color: #ffffff;
+                border-radius: 16px;
+                font-size: 12px;
+                color: #666666;
+            }
+            .dev {
+                color: #ffffff;
+                background-color: #1989fa;
+            }
+        }
+    }
+}

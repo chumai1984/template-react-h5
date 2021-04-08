@@ -1,0 +1,8 @@
+$pro-header-hover-bg: rgba(0, 0, 0, 0.025);
+
+.menu {
+    :global {
+        .ant-avatar-sm { background: #eee; margin-right: 8px;}
+        .ant-dropdown-menu-item {min-width: 160px;}
+    }
+}
