@@ -2,11 +2,9 @@ import { Avatar, Menu, Spin, Dropdown } from 'antd';
 import {LogoutOutlined} from '@ant-design/icons';
 import React from 'react';
 import { connect } from 'dva';
-import router from 'umi/router';
-import Cookies from 'js-cookie';
-import configData from '@/utils/config';
-const {PROXY_URL} = configData;
-import styles from './index.scss';
+import { history } from 'umi';
+import { PROXY_URL } from '@/utils/config'
+import styles from './index.less';
 
 
 class AvatarDropdown extends React.Component<any> {
@@ -20,7 +18,7 @@ class AvatarDropdown extends React.Component<any> {
       });
     }
     else {
-      router.push(key)
+      history.push(key)
     }
   };
 

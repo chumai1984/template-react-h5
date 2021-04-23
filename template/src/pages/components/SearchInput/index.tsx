@@ -3,7 +3,7 @@ import { Input, Icon } from 'antd';
 import Screen from './Screen'
 import HistoryList from './HistoryList'
 import { WIcon } from '@/utils/tool';
-import styles from './index.scss';
+import styles from './index.less';
 const SearchInputDumb = ({
     placeholder = '智能搜索，请输入任意关键字',
     hideSuffix = true,

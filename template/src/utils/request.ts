@@ -4,7 +4,7 @@
  */
 import { extend } from 'umi-request';
 import { notification } from 'antd';
-import router from 'umi/router';
+import { history } from 'umi';
 import Cookies from 'js-cookie';
 
 const codeMessage = {
@@ -46,7 +46,7 @@ const errorHandler = (error: { response: Response }): Response => {
     if (process.env.NODE_ENV === 'production'){
       location.href = `/api/auth/login?returnUrl=${location.href}`
     } else {
-      // router.push('/user/login')
+      // history.push('/user/login')
     }
   }
   return response;
@@ -95,7 +95,7 @@ request.interceptors.response.use(async (response, options) => {
     if(data.errorCode && data.errorCode == 'ErrorCode4') {
       if (process.env.NODE_ENV == 'development') {
         Cookies.remove('token')
-        return router.push({
+        return history.push({
           pathname: '/user/login',
         })
       } else { // 生产环境

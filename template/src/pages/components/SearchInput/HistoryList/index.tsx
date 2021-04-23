@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './index.scss';
+import styles from './index.less';
 import { WIcon } from '@/utils/tool';
 
 const ListItem = ({ children, className, _getSearchData, _addHistoty }) => {

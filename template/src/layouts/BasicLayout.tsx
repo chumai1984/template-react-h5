@@ -1,9 +1,9 @@
 import React, { PureComponent } from 'react';
 import MenuBar from '@/components/MenuBar';
 import NProgress from 'nprogress';
-import withRouter from 'umi/withRouter';
+import { withRouter } from 'umi';
 import { connect } from 'dva';
-import '@/layouts/layout.scss';
+import '@/layouts/layout.less';
 
 NProgress.configure({ showSpinner: false });
 

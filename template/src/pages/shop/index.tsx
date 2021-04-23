@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from "dva";
-import styles from './index.scss';
+import styles from './index.less';
 
 class shopView extends React.Component<any>{
   state = {

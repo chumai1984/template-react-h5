@@ -1,3 +1,26 @@
 {
-//  "extends": "eslint-config-umi"
-}
+    "env": {
+      "browser": true
+    },
+    "root": true,
+    "globals": {
+        "AUTH_HOST": true,
+        "BASE_HOST": true
+      },
+    "extends": [
+        "alloy", 
+        "alloy/react",
+        "alloy/typescript"
+    ],
+    "plugins": ["react-hooks"],
+    "rules": {
+      "@typescript-eslint/explicit-member-accessibility": "off",
+      "@typescript-eslint/prefer-optional-chain": "off",
+      "eqeqeq": "off",
+      "no-eq-null": "off",
+      "no-invalid-this": "off",
+      "react-hooks/exhaustive-deps": "warn",
+      "react-hooks/rules-of-hooks": "error"
+    }
+  }
+  

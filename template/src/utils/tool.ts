@@ -1,8 +1,7 @@
-import { Icon } from 'antd';
-import config from '@/utils/config';
-const { PUBLIC_PATH } = config
+import { PUBLIC_PATH } from '@/utils/config';
+import { createFromIconfontCN } from '@ant-design/icons';
 
-export const WIcon = Icon.createFromIconfontCN({
+export const WIcon = createFromIconfontCN({
   scriptUrl: `${PUBLIC_PATH}/ifont/iconfont.js`,
 })
 

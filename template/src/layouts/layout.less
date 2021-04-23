@@ -4,14 +4,14 @@
   .footer {}
 }
 
- $brand-primary: '#ccc'
+@brand-primary: '#ccc';
 
  :global {
    #nprogress {
      pointer-events: none;
  
      .bar {
-       background: $brand-primary;
+       background: @brand-primary;
        position: fixed;
        z-index: 1024;
        top: 0;
@@ -44,8 +44,8 @@
        height: 18px;
        box-sizing: border-box;
        border: solid 2px transparent;
-       border-top-color: $brand-primary;
-       border-left-color: $brand-primary;
+       border-top-color: @brand-primary;
+       border-left-color: @brand-primary;
        border-radius: 50%;
  
        :local {

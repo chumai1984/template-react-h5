@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { TabBar } from 'antd-mobile';
-import Router from 'umi/router';
+import { history } from 'umi';
 import {WIcon} from '../../utils/tool';
 import config from '../../utils/config';
 const {PRIMARY_COLOR} = config 
@@ -44,7 +44,7 @@ class MenuBar extends PureComponent {
             icon={<WIcon type={icon} />}
             selectedIcon={<WIcon type={selectedIcon} />}
             selected={pathname == link}
-            onPress={() => Router.push(`${link}`)}
+            onPress={() => history.push(`${link}`)}
           >
             {/* 匹配到的children路由进行渲染 */}
             {children.props.location.pathname === link && children}
